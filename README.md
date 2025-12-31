@@ -39,7 +39,7 @@ This project focuses on frontend development using React, supported by a basic b
 - bcrypt for password hashing
 
 ### Database
-- MongoDB *(or PostgreSQL / MySQL based on implementation)*
+- MongoDB 
 
 ---
 
