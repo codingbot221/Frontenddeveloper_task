@@ -34,12 +34,12 @@ This project focuses on frontend development using React, supported by a basic b
 - Axios
 
 ### Backend
-- Node.js & Express *(update if using Python/FastAPI)*
+- Node.js & Express
 - JWT Authentication
 - bcrypt for password hashing
 
 ### Database
-- MongoDB 
+- MongoDB
 
 ---
 
@@ -142,14 +142,17 @@ Import this file into Postman to test all APIs.
 
 ## 📈 Scalability & Production Considerations
 
-- Frontend code splitting and lazy loading
-- Stateless JWT authentication
-- API versioning
-- Database indexing and pagination
-- Environment-based configuration
+If this application were to be deployed to production, the following improvements would be applied:
+
+- Frontend code splitting and lazy loading for improved performance
+- Serving static assets via a CDN
+- Stateless JWT authentication to support horizontal scaling
+- API versioning for backward compatibility
+- Database indexing and pagination for large datasets
+- Environment-based configuration management
 - Containerized deployment using Docker
-- HTTPS and secure token handling
-- CI/CD pipelines for automated deployment
+- HTTPS enforcement and secure token handling
+- CI/CD pipelines for automated testing and deployment
 
 ---
 
@@ -162,4 +165,6 @@ Import this file into Postman to test all APIs.
 ---
 
 ## 📄 Notes
-This project was completed as part of a Frontend Developer Intern evaluation assignment within the given time constraints.
+This project was completed as part of a Frontend Developer Intern evaluation assignment within the given time constraints.  
+The primary focus was on building a functional, secure frontend integrated with a backend, demonstrating authentication, protected routes, and CRUD operations.  
+The application is designed to run locally, with scalability considerations documented for future production deployment.
